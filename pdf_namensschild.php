@@ -37,7 +37,7 @@
 	include("include/times.php");
 	$now = UnixToFileTime(time());
 	$pdf_filename = $_POST['filename'];
-	$pdf_filename = $pdf_filename."_".$now;
+	//$pdf_filename = $pdf_filename."_".$now;
 	$json_sting = $_POST['namen'];
 	$json_string = "[" . $json_sting . "]";
 	$json_string = $json_string;
@@ -321,10 +321,10 @@ $pdf->Write(5, "");
 
 
 
-$pdf->Output("tmp/$pdf_filename.pdf","F");
+//$pdf->Output("tmp/$pdf_filename.pdf","F");
 
 //$pdf->Output("name.pdf","I", true);
-$pdf->Output();
+$pdf->Output($pdf_filename, "I", true);
 
 
 
