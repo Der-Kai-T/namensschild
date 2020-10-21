@@ -1,0 +1,59 @@
+/*
+#000548
+#eb003c
+*/
+
+body {
+	background: #eb003c;
+	background: linear-gradient(21.26deg, #eb003c 50%, #ffffff 50%);
+	color: #000548;
+	font-family: "Maven Pro", sans-serif;
+}
+
+.box_full {
+	margin: 1.5%;
+	padding: 10px;
+	border: 1px solid #000548;
+	border-radius: 10px;
+}
+
+.box {
+	margin: 1.5%;
+	padding: 10px;
+	border: 1px solid #000548;
+	border-radius: 10px;
+	width: 35%;
+	text-align: center;
+}
+
+#imgbox {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+}
+
+.txt_input {
+	font-size: larger;
+}
+
+.button {
+	font-size: 1.5em;
+	display: inline-block;
+	text-align: center;
+	background-color: #000548;
+	color: white;
+	margin-top: 5px;
+	border: 0px;
+	border-radius: 7px;
+}
+
+.cta_button {
+	font-size: 1.5em;
+	display: inline-block;
+	text-align: center;
+	background-color: #deff00;
+	color: #000548;
+	margin-top: 5px;
+	border: 0px;
+	border-radius: 7px;
+}
